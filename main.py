@@ -8,8 +8,8 @@ import re
 def connect_to_db():
     return pymysql.connect(
         host='localhost',
-        user='root',
-        password='mysql586213',
+        user='username',
+        password='your_password',
         database='web_scraping',
         cursorclass=pymysql.cursors.DictCursor  # Utilizando cursor do tipo dicionário para facilitar a manipulação dos resultados
     )
